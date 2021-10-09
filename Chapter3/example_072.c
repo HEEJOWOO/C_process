@@ -1,4 +1,4 @@
-//문자열을 특정 문자로 채움, strset
+//문자열 대문자로 변경
 #include<stdio.h>
 #include<string.h>
 
