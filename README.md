@@ -39,3 +39,4 @@
  * 문자열 대소문자 구분하지않고 비교 : stricmp
  * 문자열 일정 크기 비교 : strncmp(int strncmp(const char* src1, const char* src2, unsigned int count))
  * 문자열 열결 : strcat(char *strcat(char* dest, const char*src))
+ * 문자열 길이 : strlen(unsigned int strlen(const char* string))
