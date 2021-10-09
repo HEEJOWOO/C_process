@@ -36,3 +36,5 @@
  * 한 개의 문자 입력 : getch, 한 개의 문자 출력 : putch, 정수값 입력 : scanf(번지를 넘겨줘야함), 문자열 입력 : gets
  * 문자열 복사 : strcpy( char* strcpy(char* dest, const char* src))
  * 문자열 대소문자 구분 : strcmp(int strcmp(const char* src1, const char* src2))
+ * 문자열 대소문자 구분하지않고 비교 : stricmp
+ * 문자열 일정 크기 비교 : strncmp(int strncmp(const char* src1, const char* src2, unsigned int count))
