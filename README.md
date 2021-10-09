@@ -43,3 +43,4 @@
  * 문자열 검색 : strstr(char* strstr(const char* string, const char* strCharSet) / strCharSet을 string에서 검색 성공 시 검색된 위치의 포인터 값을 반환, 실패시 NULL 반환 
  * 문자열 중 문자 검색 : strchr(char* strchr(const char* string, int c))
  * 문자열 중에서 일치되는 첫 문자의 위치 : strcspn(unsigned int strcspn(const char* src1, const char*src2))
+ * 문자열 중에서 일치되지않는 첫 문자의 위치 : strspn(unsigned int strspn(const char* src1, const char*src2))
