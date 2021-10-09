@@ -46,3 +46,4 @@
  * 문자열 중에서 일치되는 첫 문자의 위치 : strcspn(unsigned int strcspn(const char* src1, const char*src2))
  * 문자열 중에서 일치되지않는 첫 문자의 위치 : strspn(unsigned int strspn(const char* src1, const char*src2))
  * 문자열 특정 문자로 채우기 : strset(char* strset(char* string, int c)), strnset(char* strnset(char* string, int c, unsigned int count))
+ * 문자열 중복 생성 : strdup, 문자열 복사 : strcpy
