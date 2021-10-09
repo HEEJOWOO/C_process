@@ -40,3 +40,4 @@
  * 문자열 일정 크기 비교 : strncmp(int strncmp(const char* src1, const char* src2, unsigned int count))
  * 문자열 열결 : strcat(char *strcat(char* dest, const char*src))
  * 문자열 길이 : strlen(unsigned int strlen(const char* string))
+ * 문자열 검색 : strstr(char* strstr(const char* string, const char* strCharSet) / strCharSet을 string에서 검색 성공 시 검색된 위치의 포인터 값을 반환, 실패시 NULL 반환 
