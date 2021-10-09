@@ -37,10 +37,12 @@
  * 문자열 복사 : strcpy( char* strcpy(char* dest, const char* src))
  * 문자열 대소문자 구분 : strcmp(int strcmp(const char* src1, const char* src2))
  * 문자열 대소문자 구분하지않고 비교 : stricmp
- * 문자열 일정 크기 비교 : strncmp(int strncmp(const char* src1, const char* src2, unsigned int count))
+ * 문자열 일정 크기 비교, 대소문자 구분 : strncmp(int strncmp(const char* src1, const char* src2, unsigned int count))
+ * 문자열 일정 크기 비교, 대소문자 구분 하지 않음 : strnicmp(int strnicmp(const char* src1, const char* src2, unsigned int count))
  * 문자열 열결 : strcat(char *strcat(char* dest, const char*src))
  * 문자열 길이 : strlen(unsigned int strlen(const char* string))
  * 문자열 검색 : strstr(char* strstr(const char* string, const char* strCharSet) / strCharSet을 string에서 검색 성공 시 검색된 위치의 포인터 값을 반환, 실패시 NULL 반환 
  * 문자열 중 문자 검색 : strchr(char* strchr(const char* string, int c))
  * 문자열 중에서 일치되는 첫 문자의 위치 : strcspn(unsigned int strcspn(const char* src1, const char*src2))
  * 문자열 중에서 일치되지않는 첫 문자의 위치 : strspn(unsigned int strspn(const char* src1, const char*src2))
+ * 문자열 특정 문자로 채우기 : strset(char* strset(char* string, int c)), strnset(char* strnset(char* string, int c, unsigned int count))
