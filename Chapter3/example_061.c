@@ -9,7 +9,7 @@ void main(void) {
 	int ret;
 	do {
 		gets(str);
-		ret = strcmp(str, SKY, 3); //_stricmp : 대소문자 구분 없이 일정 크기 비교 
+		ret = strncmp(str, SKY, 3); //_strnicmp : 대소문자 구분 없이 일정 크기 비교 
 		if (ret == 0) {
 			printf("%3.3s==%s\n", str, SKY);
 			break;
