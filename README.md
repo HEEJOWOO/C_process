@@ -47,3 +47,10 @@
  * 문자열 중에서 일치되지않는 첫 문자의 위치 : strspn(unsigned int strspn(const char* src1, const char*src2))
  * 문자열 특정 문자로 채우기 : strset(char* strset(char* string, int c)), strnset(char* strnset(char* string, int c, unsigned int count))
  * 문자열 중복 생성 : strdup, 문자열 복사 : strcpy
+ * 문자열 정수 변환 : atoi, atol
+ * 문자열 실수 변환 : atof
+ * 정수 문자열 변환 : itoa, ltoa
+ * 실수 문자열 변환 : fcvt, ecvt, gcvt
+ * 문자열 내 알파벳 검사 : isalpha
+ * 문자열 내 숫자 검사 : isdigit
+ * 문자열 내 알파벳, 숫자 검사 : isalnum
