@@ -1,4 +1,4 @@
-//정수를 문자열로 변경, itoa -> char * iota(int value, char* string, int, index)
+//정수를 문자열로 변경, itoa -> char * iota(int value, char* string, int index)
 #include<stdio.h>
 #include<stdlib.h>
 
