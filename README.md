@@ -61,3 +61,4 @@
  * 메모리를 블록 단위로 할당 : calloc
  * 메모리 해제 : free
  * 메모리 재할당 : realloc
+ * memcpy : 메모리를 복사하는 함수, strcpy : 문자열을 
