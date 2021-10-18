@@ -14,6 +14,7 @@ void main(void) {
 		if (pmem == NULL)puts("메모리를 재할당 할 수 없습니다.");
 		else {
 			printf("재할당된 메모리의 크기는 %d 바이트 입니다. \n", _msize(pmem));
+			free(pmem);
 		}
 	}
 }
