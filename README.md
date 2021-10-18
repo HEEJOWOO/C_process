@@ -54,3 +54,6 @@
  * 문자열 내 알파벳 검사 : isalpha
  * 문자열 내 숫자 검사 : isdigit
  * 문자열 내 알파벳, 숫자 검사 : isalnum
+ * 문자열 내 대문자 검사 : isupper
+ * 문자열 내 소문자 검사 : islower
+ * 문자열 내 공백, 탭문자 또는 개행문자 검사 : isspace
