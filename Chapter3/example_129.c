@@ -13,10 +13,10 @@ void main(void) {
 	char array[10];
 
 	printf("%d,%d\n", ad.i, ad.j);
-	my_memset(&ad, 0, sizeof(ad));
+	my_memset(&ad, 0, sizeof(ad)); //구조체, 지정연산자사용
 	printf("%d,%d\n", ad.i, ad.j);
 
-	my_memset(array, 48, sizeof(array));
+	my_memset(array, 48, sizeof(array)); //배열, 지정연산자사용안함
 	printf("%c~%c\n", array[0], array[9]);
 }
 void my_memset(void* dest, int i, unsigned int count) {
