@@ -1,15 +1,14 @@
-//파일에 형식화된 문자열읽기 fscanf
+//파일에 버퍼 비우기 fflush
 #include<stdio.h>
 void main(void) {
 	FILE* file;
-	int i;
-	
-	if (0 == fopen_s(&file, "test.txt", "r")) {
-		
-		fscanf_s(file, "%d", &i);
-		printf("i=%d\n", i);
+	if (0 == fopen_s(&file, "test.txt", "w+")) {
+		puts("파일생성");
+		fputs("korea", file);
+		fflush(file);
+		fclose(file);
 	}
 	else {
-		puts("텍스트 생성 못함");
+		puts("파일생성안됨");
 	}
 }
