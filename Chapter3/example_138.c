@@ -4,7 +4,6 @@ void main(void) {
 	FILE* file;
 	int ch;
 	if (0 == fopen_s(&file, "C:\\Users\\\KSW\\source\\repos\\C_Process\\test.txt", "r")) {
-		puts("파일이 생성됐습니다.");
 		ch = fgetc(file);
 		printf("%c\n", ch);
 		fclose(file);
