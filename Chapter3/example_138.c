@@ -1,4 +1,4 @@
-//파일에 한 문자 쓰기 fputc
+//파일에 한 문자 읽기 fgetc
 #include<stdio.h>
 void main(void) {
 	FILE* file;
