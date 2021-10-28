@@ -91,3 +91,19 @@
  * 파일 포인터 위치 변경 : fseek
  * 파일 포인터 처음으로 이동 : rewind
  * 파일 포인터 현재 위치 구하기2 : fgetpos
+ * 파일 포인터 현재 위치 설정하기 : fsetpos
+ * 파일 닫기 : fclose
+ * 파일 끝에 도달했는지 확인 : feof
+ * 파일 읽기 쓰기 시 에러 검사 : ferror
+ * 파일 처리 시 발생된 에러 표시 : perror
+ * 임시 파일 만들기 : tmpnam
+ * 파일 존재 유무 확인 : _access
+ * 파일 이름 변경 : rename
+ * 파일 속성 변경 : _chmod
+ * 파일 삭제하기 : remove
+ * 디렉터리 생성 : _mkdir
+ * 디렉터리 삭제 : _rmdir
+ * 현재 작업중인 디렉터리 구하기 : _getcwd
+ * 현재 작업중인 디렉터리 변경하기 : _chdir
+ * 현재 작업중인 드라이브 구하기 : _getdrive
+ 
